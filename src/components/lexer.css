@@ -1,0 +1,223 @@
+.lexer{
+    display:flex;
+    padding:30px;
+}
+.container-1{
+    width:300px;
+    padding:20px;
+    border-radius: 10px;
+    border:1px solid grey;
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+}
+.container_btn{
+     width:300px;
+     border: 2px solid rgb(226, 226, 226);
+     border-radius: 30px;
+     display:flex;
+     justify-content: space-between;
+     background-color: gray;
+}
+
+.container_btn>button{
+    width:100px;
+    cursor:pointer;
+    border-radius: 30px;
+    padding:4px;
+    color:rgb(255, 255, 255);
+}
+
+.active{
+    background-color: rgb(0, 174, 255);
+    border: 1px solid rgb(160, 208, 247);
+}
+.notactive{
+    background-color: grey;
+    border: none;
+}
+.container_btn2{
+     width:300px;
+     border: 2px solid rgb(226, 226, 226);
+     border-radius: 30px;
+     display:flex;
+     justify-content: space-between;
+     background-color: gray;
+}
+.container_btn2>button{
+    cursor:pointer;
+    width:150px;
+    border-radius: 30px;
+    padding:4px;
+    color:rgb(255, 255, 255);
+}
+
+.pay{
+    width:300px;
+    color:white;
+}
+.pay_container{
+    height:25px;
+    padding:5px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid rgb(226, 226, 226);
+    border-radius: 30px;
+    background-color: rgba(64, 64, 73, 0.527);
+}
+.pay_container>div>button{
+    font-size: 18px;
+    color:white;
+    background-color: transparent;
+    border:none;
+}
+.ethcontainer{
+    display:flex;
+    cursor:pointer;
+    align-items: center;
+}
+.long{
+    width:300px;
+    color:white;
+}
+.long_container1{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.long_container2{
+    height:25px;
+    padding:5px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid rgb(226, 226, 226);
+    border-radius: 30px;
+    background-color: rgba(64, 64, 73, 0.527);
+}
+
+.long_container2>div>button{
+    font-size: 18px;
+    color:white;
+    background-color: transparent;
+    border:none;
+}
+.leverage{
+    width:300px;
+}
+.leverage>div{
+    display:flex;
+    justify-content: space-between;
+    color:white;
+}
+.leverage>div>span{
+    letter-spacing: 3px;
+    font-size:14px;
+}
+.btndiv{
+    padding:2px;
+    width:300px;
+    display:flex;
+    flex-direction:column;
+    gap:0.5rem;
+}
+.btndiv>button{
+    padding:5px;
+    border-radius: 30px;
+}
+.smart_router{
+    cursor:pointer;
+    background-color: grey;
+    color:white;
+}
+
+.connect_wallet{
+    cursor:pointer;
+    background-color:  rgb(0, 174, 255);
+    color:white;
+}
+.container-2{
+    color:white;
+    display:flex;
+    border:1px solid grey;
+    padding:10px;
+    padding-left:40px;
+    align-items: center;
+    border-radius:10px;
+    flex:1;
+    gap:50px;
+    letter-spacing: 2px;
+    margin-bottom:20px;
+    
+}
+.ethcnt2{
+    cursor:pointer;
+    display:flex;
+    align-items: center;
+}
+.usdcnt{
+    display:flex;
+    flex-direction: column;
+}
+.heading2{
+    font-size: 14px ;
+    color:white;
+    text-align: center;
+}
+.heading1{
+    font-size:14px;
+    color:grey;
+}
+.greenheading{
+    color:rgb(19, 189, 110);
+}
+.headinggrey{
+    color:gray;
+}
+.container-3{
+    border:1px solid grey;
+    border-radius: 10px;
+    height:500px;
+}
+.cntflex{
+    flex:1;
+    margin-left:20px;
+}
+.Container-4{
+    display:flex;
+    flex-direction:column;
+    margin:30px;
+    color:white;
+    gap:8px;
+    border:1px solid grey;
+    padding:10px;
+    border-radius:10px;
+}
+.container4_btn{
+    border: 2px solid rgb(226, 226, 226);
+    border-radius: 30px;
+    height:40px;
+    display:flex;
+    justify-content: space-between;
+    background-color:  gray;
+    margin-bottom: 8px;
+}
+.container4_btn>button{
+    cursor:pointer;
+    font-size:16px;
+    letter-spacing: 3px;
+    width:454px;
+    border-radius: 30px;
+    padding:4px;
+    color:rgb(255, 255, 255);
+    text-align: center;
+}
+
+.cnt4_span{
+    display:flex;
+    justify-content: space-between;
+    font-size:14px;
+    letter-spacing: 2px;
+}

@@ -1,0 +1,125 @@
+.liquidity{
+    display:flex;
+    flex-direction: column;
+    color:white;
+    margin:60px;
+    gap:30px;
+}
+.liquidity_heading{
+    text-align: center;
+    letter-spacing: 2px;
+    font-size:15px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400 ;
+}
+.underline{
+    text-decoration: underline;
+}
+.liquidity_btn{
+    display:flex;
+    border:2px solid rgb(199, 198, 198);
+    border-radius: 30px;
+    background-color: grey;
+    color:white;
+}
+.active{
+    padding:7px;
+    color:white;
+    background-color: rgb(0, 174, 255);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border-radius: 30px;
+    flex:1;
+}
+.liquidity_btn1img>img{
+    height:15px;
+    margin-left:5px;
+    margin-right:5px;
+}
+
+.notactive{
+    padding:7px;
+    color:white;
+    background-color: grey;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border-radius: 30px;
+    flex:1;
+}
+.liquidity_4cnt{
+    display:flex;
+    margin-bottom:10px;
+    gap:10px;
+    flex:3 ;
+}
+.liquidity_4cntflex{
+    flex:1;
+    display:flex;
+    flex-direction: column;
+    gap:12px;
+}
+.liquidity_cnt{
+    border:1px solid grey;
+    border-radius:30px;
+    flex:4;
+    padding:15px;
+}
+.liquidity_container{
+    display:flex;
+    gap:10px;
+}
+.longliquidity
+{
+    padding:10px;
+    display:flex;
+    flex-direction: column;
+}
+.maxcnt{
+    color:rgb(0, 153, 255);
+    background-color: white;
+    padding:3px;
+    border-radius: 4px;
+}
+.liquidity_span{
+    display:flex;
+    justify-content: space-between;
+    padding:10px;
+}
+.liquid{
+    padding:25px;
+}
+.token_liquidity{
+    display:flex;
+    flex-direction: column;
+    border: 1px solid grey;
+    border-radius: 20px;
+    gap:50px;
+    padding:30px;
+    justify-content: center;
+}
+.token_flex{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.small{
+    font-size: small;
+    color:grey;
+}
+.usdc{
+    display:flex;
+    flex-direction: column;
+}
+.token_flex>img{
+    height:40px;
+}
+.heading_grey{
+    color:grey;
+}

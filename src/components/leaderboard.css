@@ -1,0 +1,31 @@
+.leaderboard>img{
+    height:400px;
+   
+}
+.leaderboard{
+    display:flex;
+    flex-direction: column;
+    color:white;
+    gap:20px;
+}
+.four{
+    margin-left:20px;
+}
+.rewards{
+    margin-right:20px;
+}
+.pnl{
+    color:rgba(245, 70, 70, 0.747);
+}
+.leadercnt{
+    padding:20px;
+    margin:40px;
+    display:flex;
+    flex-direction: column;
+}
+.rewards{
+    margin-bottom:-20px;
+}
+.hradjustment{
+    margin-top: -40px;
+}

@@ -1,0 +1,85 @@
+.dashboard{
+    margin:50px;
+    display:flex;
+    flex-direction: column;
+    color:white;
+    gap:20px;
+}
+.divcnt1{
+    display:flex;
+    gap:20px;
+}
+.box{
+    position:relative;
+    padding:30px;
+    flex:1;
+    height:250px;
+    border-radius: 10px;
+    border:1px solid grey;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.boxcenter{
+    position:absolute;
+    font-weight:400;
+    margin-left:130px;
+    margin-top:100px;
+    font-size:14px;
+    color:rgb(19, 189, 110);
+}
+.divcnt2{
+    display:flex;
+    gap:20px;
+}
+.box2{
+    padding:30px;
+    flex:1;
+    display:flex;
+    height:200px;
+    border-radius: 10px;
+    border:1px solid grey;
+}
+.imgcnt2{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    letter-spacing: 3px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.cnt2span{
+    display:flex;
+    justify-content: space-between;
+    font-size:14px;
+    letter-spacing: 2px;
+}
+.cntbox2{
+    margin:10px;
+    width:300px;
+}
+.spancnt{
+    margin-top:20px;
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+}
+.divcnt3{
+    display:flex;
+    border:1px solid grey;
+    border-radius: 10px;
+    color:white;
+    justify-content: space-between;
+    padding:20px;
+    padding-left:40px;
+    padding-right:40px;
+    align-items: center;
+}
+.box3{
+    display:flex;
+    gap:10px;
+    align-items: center;
+    letter-spacing: 2px;
+}
+.box3>img{
+    height:40px;
+}

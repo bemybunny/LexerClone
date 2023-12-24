@@ -1,0 +1,96 @@
+.navbar{
+    background-color: #1111115d;
+    height:70px;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    color:white;
+    padding-left:60px;
+    padding-right:50px;
+}
+.navbar-cnt{
+    display:flex;
+    gap:20px;
+    align-items:center;
+}
+.container>span{
+    margin-left:35px;
+    cursor:pointer;
+    letter-spacing: 3px;
+    font-size: 14px;
+}
+.custom-link{
+    margin-left:35px;
+    cursor:pointer;
+    letter-spacing: 3px;
+    font-size: 14px;
+    color:white;
+    text-decoration: none;
+}
+.container>span:hover,.custom-link:hover{
+    color:rgba(70, 140, 231, 0.856);
+}
+.container-wallet{
+    
+    border: 2px solid grey;
+    padding:5px;
+    border-radius: 10px;;
+    margin-left:40px;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    padding-left:10px;
+    padding-right:10px;
+}
+/* NavBar.css */
+
+.sidebar {
+    width: 0;
+    height: 100%;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    padding:10px;
+  }
+
+.menu-icon2{
+  display:flex;
+  justify-content: space-between;
+    margin:20px;
+}
+
+  .sidebar.open {
+    width: 300px;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 20px;
+  }
+  
+  .sidebar li {
+
+    color: rgb(180, 180, 180);
+    cursor: pointer;
+  }
+  
+  .menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+@media screen and (max-width: 1330px) {
+    .container {
+      display:none;
+    }
+}
+
+@media screen and (min-width: 1331px) {
+    .menu-icon {
+        display: none;
+    }
+}
